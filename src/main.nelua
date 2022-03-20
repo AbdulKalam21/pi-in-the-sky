@@ -1,0 +1,37 @@
+require "raylib"
+
+-- Initialization
+--------------------------------------------------------------------------------------
+local screenWidth: uint16 <comptime> = 800
+local screenHeight: uint16 <comptime> = 450
+
+InitWindow(screenWidth,screenHeight, "Pi in the sky")
+
+SetTargetFPS(60)        -- Set our game to run at 60 frames-per-second
+
+--------------------------------------------------------------------------------------
+
+-- Main game loop
+
+while not WindowShouldClose() do        -- Detect window close button or ESC key
+
+    -- Update
+    ----------------------------------------------------------------------------------
+    -- TODO: Update your variables here
+    ----------------------------------------------------------------------------------
+
+    -- Draw
+    ----------------------------------------------------------------------------------
+
+    BeginDrawing()
+
+        ClearBackground(RAYWHITE)
+
+    EndDrawing()
+    -----------------------------------------------------------------------------------
+end
+
+-- De-Initialization
+-------------------------------------------------------------------------------------
+CloseWindow()       -- Close window and OpenGL context
+-------------------------------------------------------------------------------------

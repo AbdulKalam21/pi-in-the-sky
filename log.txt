@@ -1,0 +1,30 @@
+[?2004h]0;abdulkalam@Home: ~/pi-in-the-sky[01;32mabdulkalam@Home[00m:[01;34m~/pi-in-the-sky[00m$ ls
+[?2004lIDEA.md  log.txt  README.md  [0m[01;34msrc[0m
+[?2004h]0;abdulkalam@Home: ~/pi-in-the-sky[01;32mabdulkalam@Home[00m:[01;34m~/pi-in-the-sky[00m$ ls
+[?2004lIDEA.md  log.txt  README.md  [0m[01;34msrc[0m
+[?2004h]0;abdulkalam@Home: ~/pi-in-the-sky[01;32mabdulkalam@Home[00m:[01;34m~/pi-in-the-sky[00m$ cd src
+[?2004l[?2004h]0;abdulkalam@Home: ~/pi-in-the-sky/src[01;32mabdulkalam@Home[00m:[01;34m~/pi-in-the-sky/src[00m$ ls
+[?2004lmain.nelua  Makefiles  [0m[01;34mmodules[0m
+[?2004h]0;abdulkalam@Home: ~/pi-in-the-sky/src[01;32mabdulkalam@Home[00m:[01;34m~/pi-in-the-sky/src[00m$ make
+[?2004lmake: *** No targets specified and no makefile found.  Stop.
+[?2004h]0;abdulkalam@Home: ~/pi-in-the-sky/src[01;32mabdulkalam@Home[00m:[01;34m~/pi-in-the-sky/src[00m$ make
+[?2004lmake: *** No targets specified and no makefile found.  Stop.
+[?2004h]0;abdulkalam@Home: ~/pi-in-the-sky/src[01;32mabdulkalam@Home[00m:[01;34m~/pi-in-the-sky/src[00m$ ls
+[?2004lmain.nelua  Makefiles  [0m[01;34mmodules[0m
+[?2004h]0;abdulkalam@Home: ~/pi-in-the-sky/src[01;32mabdulkalam@Home[00m:[01;34m~/pi-in-the-sky/src[00m$ make
+[?2004lmake: *** No targets specified and no makefile found.  Stop.
+[?2004h]0;abdulkalam@Home: ~/pi-in-the-sky/src[01;32mabdulkalam@Home[00m:[01;34m~/pi-in-the-sky/src[00m$ am[K[Kmake
+[?2004lnelua main.nelua
+main.nelua[1m:1:1: [0mfrom: [0m[1mAST node Block[0m
+require "raylib"
+[1m[32m^[0m[35m~~~~~~~~~~~~~~~[0m
+main.nelua[1m:1:9: [31m[1merror: [0m[1min require: module 'raylib' not found:
+	no file '/home/abdulkalam/pi-in-the-sky/src/raylib.nelua'
+	no file '/home/abdulkalam/pi-in-the-sky/src/raylib/init.nelua'
+	no file '/home/abdulkalam/nelua-lang/lib/raylib.nelua'
+	no file '/home/abdulkalam/nelua-lang/lib/raylib/init.nelua'[0m
+require "raylib"
+        [1m[32m^[0m[35m~~~~~~~[0m
+
+make: *** [Makefile:2: default] Error 1
+[?2004h]0;abdulkalam@Home: ~/pi-in-the-sky/src[01;32mabdulkalam@Home[00m:[01;34m~/pi-in-the-sky/src[00m$ 
